@@ -34,7 +34,16 @@ for (let student in students2){
 	console.log(student+'='+students2[student])
 }
 
-for (let s = students.length; i <= s; i++ ){
-	console.log(students[i])
+for (let s = students2.length; i <= s; i++ ){
+	console.log(students2[i])
 }
  
+let numbers = [10];
+let j;
+
+for (j = 0; j  < 10;  j++){
+    numbers = j;
+    console.log(numbers)
+}
+
+console.log(numbers)

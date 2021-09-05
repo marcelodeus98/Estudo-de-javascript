@@ -10,9 +10,7 @@ let majority = (year) => {
     if(year < 18){
         return `You have ${year} year, is underage`;
     }
-    else{
         return `You have ${year} year, is of legal age`;
-    }
 }
 
 console.log(majority(2));
@@ -77,3 +75,31 @@ function Person2 (name) {
 let name2 = new Person2('Marcelo');
 
 console.log(name2.walk());
+
+let calculator = (operator, value1, value2) => {
+    let result;
+    switch (operator){
+        case '+' :
+            result = value1 + value2;
+            console.log(result);
+        break;
+        
+        case '-' :
+            result = value1 - value2;
+            console.log(result);
+        break;
+
+        case '*' :
+            result = value1 * value2;
+            console.log(result);
+        break;
+
+        case '/' :
+            result = value1 / value2;
+            console.log(result);
+        break;
+    }
+
+}
+
+console.log(calculator('-', 5, 5))
