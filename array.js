@@ -24,6 +24,7 @@ let students = [
 
 console.log(students)
 
+<<<<<<< HEAD
 // Percorrendo um array 
 
 let friends= ['Marcelo', 'Laryssa', 'João'];
@@ -35,6 +36,20 @@ for (let friend in friends){
 
 for (let s = friends.length; i <= s; i++ ){
 	console.log(friends[i])
+=======
+
+// Percorrendo um array 
+
+let students2 = ['Marcelo', 'Laryssa', 'João'];
+let i = 0;
+
+for (let student in students2){
+	console.log(student+'='+students2[student])
+}
+
+for (let s = students2.length; i <= s; i++ ){
+	console.log(students2[i])
+>>>>>>> 688bb38b4328ee5261c913aa36404a9a4b34053b
 }
  
 let numbers = [10];
