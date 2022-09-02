@@ -12,6 +12,6 @@
 
 ###
 
-<p align="left">Recomendo iniciar através do arquivo study_base.js pois ele fundamenta meio que um passo a passo de estudo.</p>
+<p align="left">Recomendo iniciar através do arquivo study_base.js pois ele irá servir  como um passo a passo ou trilha de estudo.</p>
 
 ###
